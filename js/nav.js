@@ -14,17 +14,20 @@
       <a href="materiales.html" data-i18n="nav.materials">Materiales</a>
       <a href="empleo.html" data-i18n="nav.jobs">Empleo</a>
       <a href="contacto.html" class="nav-cta" data-i18n="nav.contact">Contacto</a>
-    </div>
-    <div class="nav-right">
-      <div class="nav-flags">
-        <button class="lang-btn" data-lang="es" title="Español">🇪🇸 ES</button>
-        <button class="lang-btn" data-lang="en" title="English">🇬🇧 EN</button>
-        <button class="lang-btn" data-lang="nl" title="Nederlands">🇳🇱 NL</button>
+      <div class="nav-flags-mobile">
+        <button class="lang-btn" data-lang="es" title="Español"><img src="images/es-flag.webp" alt="" /> ES</button>
+        <button class="lang-btn" data-lang="en" title="English"><img src="images/uk-flag.webp" alt="" /> EN</button>
+        <button class="lang-btn" data-lang="nl" title="Nederlands"><img src="images/nl-flag.webp" alt="" /> NL</button>
       </div>
-      <button class="hamburger" id="hamburger" aria-label="Menú">
-        <span></span><span></span><span></span>
-      </button>
     </div>
+    <div class="nav-flags">
+      <button class="lang-btn" data-lang="es" title="Español"><img src="images/es-flag.webp" alt="" /> ES</button>
+      <button class="lang-btn" data-lang="en" title="English"><img src="images/uk-flag.webp" alt="" /> EN</button>
+      <button class="lang-btn" data-lang="nl" title="Nederlands"><img src="images/nl-flag.webp" alt="" /> NL</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>`;
 

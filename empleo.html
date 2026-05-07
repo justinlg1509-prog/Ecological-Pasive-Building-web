@@ -11,7 +11,7 @@
   <link rel="canonical" href="https://www.ecologicalpassivebuilding.es/empleo.html" />
   <link rel="icon" type="image/png" href="images/Logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
   <script>
     window.JOBS = [
@@ -34,7 +34,7 @@
       <a href="index.html" data-i18n="nav.home">Hogar</a><span class="sep">/</span>
       <span data-i18n="nav.jobs">Empleo</span>
     </nav>
-    <h1>Únete a nuestro equipo</h1>
+    <h1 data-i18n="nav.jobs">Empleo</h1>
   </div>
 </div>
 
@@ -42,13 +42,13 @@
   <div class="container">
     <div class="split">
       <div class="split-text">
-        <span class="tag">Trabaja con nosotros</span>
-        <h2 class="section-title">¿Apasionado por la construcción sostenible?</h2>
-        <p style="color:var(--gray-600);margin-bottom:16px;">En Ecological Passive Building buscamos profesionales comprometidos con la excelencia, la innovación y el cuidado del medioambiente. Formamos un equipo multidisciplinar donde cada persona aporta valor único.</p>
+        <span class="tag" data-i18n="emp.tag1">Trabaja con nosotros</span>
+        <h2 class="section-title" data-i18n="emp.h2">¿Apasionado por la construcción sostenible?</h2>
+        <p style="color:var(--gray-600);margin-bottom:16px;" data-i18n="emp.p">En Ecological Passive Building buscamos profesionales comprometidos con la excelencia, la innovación y el cuidado del medioambiente. Formamos un equipo multidisciplinar donde cada persona aporta valor único.</p>
         <div class="feature-list">
-          <div class="feature-item"><div class="feature-check">✓</div><p><strong>Proyectos únicos:</strong> cada villa es un reto diferente y una oportunidad de aprender.</p></div>
-          <div class="feature-item"><div class="feature-check">✓</div><p><strong>Formación continua:</strong> invertimos en el desarrollo profesional de nuestro equipo.</p></div>
-          <div class="feature-item"><div class="feature-check">✓</div><p><strong>Impacto real:</strong> contribuyes activamente a un futuro más sostenible con cada proyecto.</p></div>
+          <div class="feature-item"><div class="feature-check">✓</div><p data-i18n="emp.f1"><strong>Proyectos únicos:</strong> cada villa es un reto diferente y una oportunidad de aprender.</p></div>
+          <div class="feature-item"><div class="feature-check">✓</div><p data-i18n="emp.f2"><strong>Formación continua:</strong> invertimos en el desarrollo profesional de nuestro equipo.</p></div>
+          <div class="feature-item"><div class="feature-check">✓</div><p data-i18n="emp.f3"><strong>Impacto real:</strong> contribuyes activamente a un futuro más sostenible con cada proyecto.</p></div>
         </div>
       </div>
       <div class="split-img">
@@ -61,12 +61,12 @@
 <section class="section section-alt">
   <div class="container">
     <div style="margin-bottom:36px;">
-      <span class="tag">Ofertas actuales</span>
-      <h2 class="section-title">Posiciones abiertas</h2>
-      <p class="section-lead">Consulta nuestras vacantes y envía tu candidatura. Respondemos a todos los perfiles recibidos.</p>
+      <span class="tag" data-i18n="emp.tag2">Ofertas actuales</span>
+      <h2 class="section-title" data-i18n="emp.h2_2">Posiciones abiertas</h2>
+      <p class="section-lead" data-i18n="emp.lead2">Consulta nuestras vacantes y envía tu candidatura. Respondemos a todos los perfiles recibidos.</p>
     </div>
     <div class="jobs-filter">
-      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn active" data-filter="all" data-i18n="emp.all">Todos</button>
       <button class="filter-btn" data-filter="arquitectura">Arquitectura</button>
       <button class="filter-btn" data-filter="obra">Obra</button>
       <button class="filter-btn" data-filter="administracion">Administración</button>
@@ -78,10 +78,10 @@
 
 <section class="section section-green">
   <div class="container" style="text-align:center;">
-    <span class="tag">Candidatura espontánea</span>
-    <h2 class="section-title" style="margin-bottom:12px;">¿No encuentras tu perfil?</h2>
-    <p class="section-lead" style="margin:0 auto 28px;">Si no ves una oferta que encaje contigo pero crees que puedes aportar valor a nuestro equipo, escríbenos igualmente. Guardamos todos los perfiles para futuras oportunidades.</p>
-    <a href="mailto:info@ecologicalpassivebuilding.es?subject=Candidatura%20espontánea%20-%20Ecological%20Passive%20Building" class="btn btn-primary" style="font-size:.95rem;padding:14px 32px;">Enviar candidatura espontánea →</a>
+    <span class="tag" data-i18n="emp.tag3">Candidatura espontánea</span>
+    <h2 class="section-title" style="margin-bottom:12px;" data-i18n="emp.h2_3">¿No encuentras tu perfil?</h2>
+    <p class="section-lead" style="margin:0 auto 28px;" data-i18n="emp.lead3">Si no ves una oferta que encaje contigo pero crees que puedes aportar valor a nuestro equipo, escríbenos igualmente. Guardamos todos los perfiles para futuras oportunidades.</p>
+    <a href="mailto:info@ecologicalpassivebuilding.es?subject=Candidatura%20espontánea%20-%20Ecological%20Passive%20Building" class="btn btn-primary" style="font-size:.95rem;padding:14px 32px;" data-i18n="emp.spont">Enviar candidatura espontánea →</a>
   </div>
 </section>
 
@@ -91,7 +91,7 @@
     <div class="modal-head">
       <div>
         <div class="tag" id="modalJobCat" style="margin-bottom:6px;"></div>
-        <h3 id="modalJobTitle" style="font-size:1.25rem;font-family:'Playfair Display',serif;"></h3>
+        <h3 id="modalJobTitle" style="font-size:1.25rem;font-family:'Space Grotesk',sans-serif;"></h3>
       </div>
       <button class="modal-close" aria-label="Cerrar">✕</button>
     </div>

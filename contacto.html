@@ -11,7 +11,7 @@
   <link rel="canonical" href="https://www.ecologicalpassivebuilding.es/contacto.html" />
   <link rel="icon" type="image/png" href="images/Logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -33,34 +33,34 @@
     <div class="contact-wrapper">
       <!-- LEFT: info -->
       <div class="contact-info">
-        <span class="tag">Estamos aquí para ti</span>
-        <h2 class="section-title">Hablemos de tu proyecto</h2>
-        <p class="section-lead" style="margin-bottom:32px;">Nuestro equipo está disponible para resolver todas tus dudas y ayudarte a dar el primer paso hacia tu villa perfecta.</p>
+        <span class="tag" data-i18n="ct.tag">Estamos aquí para ti</span>
+        <h2 class="section-title" data-i18n="ct.h2">Hablemos de tu proyecto</h2>
+        <p class="section-lead" style="margin-bottom:32px;" data-i18n="ct.lead">Nuestro equipo está disponible para resolver todas tus dudas y ayudarte a dar el primer paso hacia tu villa perfecta.</p>
 
         <h3 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin-bottom:16px;">GRUPO TECNOLÓGICO Y DE INVERSIONES GLOBALES SL.</h3>
         <div class="contact-offices">
           <div class="office-card">
-            <div class="office-name">🇪🇸 Sede Central — Granada</div>
+            <div class="office-name" data-i18n="ct.office1">🇪🇸 Sede Central — Granada</div>
             <div class="office-addr">Calle Antonio Dalmases 7, 1a<br>18006 Granada — España</div>
           </div>
           <div class="office-card">
-            <div class="office-name">🇬🇧 Oficina Londres</div>
+            <div class="office-name" data-i18n="ct.office2">🇬🇧 Oficina Londres</div>
             <div class="office-addr">Eco Construction Spain Ltd.<br>128 City Road, Londres ECV1 2NX — Reino Unido</div>
           </div>
           <div class="office-card">
-            <div class="office-name">🏭 Almacén — Málaga</div>
+            <div class="office-name" data-i18n="ct.office3">🏭 Almacén — Málaga</div>
             <div class="office-addr">Calle Fidias 14c<br>29004 Málaga — España</div>
           </div>
         </div>
 
         <div style="margin-top:28px;">
-          <h4 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin-bottom:14px;">NÚMERO DE TELÉFONO DE LA OFICINA</h4>
+          <h4 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin-bottom:14px;" data-i18n="ct.tel.label">NÚMERO DE TELÉFONO DE LA OFICINA</h4>
           <div class="contact-detail-row">
             <span class="icon">📞</span>
             <a href="https://wa.me/34951661189" target="_blank" rel="noopener" style="color:var(--green-mid);font-weight:500;">+34 951 661 189</a>
           </div>
 
-          <h4 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin:18px 0 14px;">NÚMERO DE TELÉFONO MÓVIL</h4>
+          <h4 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin:18px 0 14px;" data-i18n="ct.mob.label">NÚMERO DE TELÉFONO MÓVIL</h4>
           <div class="contact-detail-row">
             <span class="icon">📱</span>
             <a href="https://wa.me/34602697459" target="_blank" rel="noopener" style="color:var(--green-mid);font-weight:500;">+34 602 697 459</a>
@@ -74,7 +74,7 @@
             <a href="https://wa.me/447586059130" target="_blank" rel="noopener" style="color:var(--green-mid);font-weight:500;">+44 7586 059130 (UK)</a>
           </div>
 
-          <h4 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin:18px 0 14px;">CORREOS ELECTRÓNICOS</h4>
+          <h4 style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--gray-800);margin:18px 0 14px;" data-i18n="ct.email.label">CORREOS ELECTRÓNICOS</h4>
           <div class="contact-detail-row">
             <span class="icon">✉️</span>
             <a href="mailto:info@ecologicalpassivebuilding.es" style="color:var(--green-mid);font-weight:500;">info@ecologicalpassivebuilding.es</a>
@@ -88,31 +88,30 @@
 
       <!-- RIGHT: form -->
       <div class="contact-form-box">
-        <h3 class="form-title">Envíanos un mensaje</h3>
-        <p class="form-sub">Te responderemos en menos de 24 horas laborables.</p>
+        <h3 class="form-title" data-i18n="ct.form.title">Envíanos un mensaje</h3>
+        <p class="form-sub" data-i18n="ct.form.sub">Te responderemos en menos de 24 horas laborables.</p>
         <form id="contactForm" novalidate>
-          <!-- FormSubmit honeypot -->
           <input type="text" name="_honey" style="display:none;" />
           <div class="form-row">
             <div class="form-group">
-              <label for="fname">Nombre *</label>
+              <label for="fname" data-i18n="ct.form.fname">Nombre *</label>
               <input type="text" id="fname" placeholder="Tu nombre" required />
             </div>
             <div class="form-group">
-              <label for="lname">Apellidos *</label>
+              <label for="lname" data-i18n="ct.form.lname">Apellidos *</label>
               <input type="text" id="lname" placeholder="Tus apellidos" required />
             </div>
           </div>
           <div class="form-group">
-            <label for="cemail">Correo electrónico *</label>
+            <label for="cemail" data-i18n="ct.form.email">Correo electrónico *</label>
             <input type="email" id="cemail" placeholder="correo@ejemplo.com" required />
           </div>
           <div class="form-group">
-            <label for="cphone">Teléfono</label>
+            <label for="cphone" data-i18n="ct.form.phone">Teléfono</label>
             <input type="tel" id="cphone" placeholder="+34 600 000 000" />
           </div>
           <div class="form-group">
-            <label for="subject">Asunto *</label>
+            <label for="subject" data-i18n="ct.form.subj">Asunto *</label>
             <select id="subject" required>
               <option value="">Selecciona un asunto…</option>
               <option>Información sobre proyectos sobre plano</option>
@@ -124,13 +123,13 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="message">Mensaje *</label>
+            <label for="message" data-i18n="ct.form.msg">Mensaje *</label>
             <textarea id="message" placeholder="Cuéntanos sobre tu proyecto, terreno, necesidades…" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:.95rem;padding:14px;">
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:.95rem;padding:14px;" data-i18n="ct.form.btn">
             Enviar mensaje →
           </button>
-          <div class="form-success" id="formSuccess">
+          <div class="form-success" id="formSuccess" data-i18n="ct.form.ok">
             ✅ ¡Mensaje enviado con éxito! Nos pondremos en contacto contigo muy pronto.
           </div>
         </form>

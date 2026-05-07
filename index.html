@@ -13,7 +13,7 @@
   <link rel="canonical" href="https://www.ecologicalpassivebuilding.es/" />
   <link rel="icon" type="image/png" href="images/Logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -32,17 +32,20 @@
       <a href="materiales.html" data-i18n="nav.materials">Materiales</a>
       <a href="empleo.html" data-i18n="nav.jobs">Empleo</a>
       <a href="contacto.html" class="nav-cta" data-i18n="nav.contact">Contacto</a>
-    </div>
-    <div class="nav-right">
-      <div class="nav-flags">
-        <button class="lang-btn" data-lang="es" title="Español">🇪🇸 ES</button>
-        <button class="lang-btn" data-lang="en" title="English">🇬🇧 EN</button>
-        <button class="lang-btn" data-lang="nl" title="Nederlands">🇳🇱 NL</button>
+      <div class="nav-flags-mobile">
+        <button class="lang-btn" data-lang="es" title="Español"><img src="images/es-flag.webp" alt="" /> ES</button>
+        <button class="lang-btn" data-lang="en" title="English"><img src="images/uk-flag.webp" alt="" /> EN</button>
+        <button class="lang-btn" data-lang="nl" title="Nederlands"><img src="images/nl-flag.webp" alt="" /> NL</button>
       </div>
-      <button class="hamburger" id="hamburger" aria-label="Menú">
-        <span></span><span></span><span></span>
-      </button>
     </div>
+    <div class="nav-flags">
+      <button class="lang-btn" data-lang="es" title="Español"><img src="images/es-flag.webp" alt="" /> ES</button>
+      <button class="lang-btn" data-lang="en" title="English"><img src="images/uk-flag.webp" alt="" /> EN</button>
+      <button class="lang-btn" data-lang="nl" title="Nederlands"><img src="images/nl-flag.webp" alt="" /> NL</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -82,41 +85,49 @@
   </div>
 </section>
 
-<!-- ══ SERVICES GRID ════════════════════════ -->
+<!-- ══ SERVICES CAROUSEL ════════════════════ -->
 <section id="services">
-  <div class="services-grid">
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80" alt="Construcción ecológica" loading="lazy" />
-      <div class="service-content">
-        <div class="service-line"></div>
-        <h3 data-i18n="svc.h3.1">Construcción ecológica</h3>
-        <p data-i18n="svc.p.1">Contamos con una larga lista de contratistas profesionales con los que nuestros ingenieros y arquitectos disfrutan trabajando en la mayoría de nuestros proyectos.</p>
+  <div class="services-carousel" id="servicesCarousel">
+    <div class="carousel-progress" aria-hidden="true">
+      <div class="carousel-progress-bar" id="svcProgress"></div>
+    </div>
+    <button class="carousel-arrow carousel-prev" id="svcPrev" aria-label="Anterior">‹</button>
+    <button class="carousel-arrow carousel-next" id="svcNext" aria-label="Siguiente">›</button>
+    <div class="carousel-track" id="servicesTrack">
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80" alt="Construcción ecológica" loading="lazy" />
+        <div class="service-content">
+          <div class="service-line"></div>
+          <h3 data-i18n="svc.h3.1">Construcción ecológica</h3>
+          <p data-i18n="svc.p.1">Contamos con una larga lista de contratistas profesionales con los que nuestros ingenieros y arquitectos disfrutan trabajando en la mayoría de nuestros proyectos.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80" alt="Diseño y construcción" loading="lazy" />
+        <div class="service-content">
+          <div class="service-line"></div>
+          <h3 data-i18n="svc.h3.2">Diseño y construcción</h3>
+          <p data-i18n="svc.p.2">Nuestra especialización nos permite diseñar y construir cualquier tipo de proyecto, por lo que somos considerados los mejores del mercado.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80" alt="Servicios de construcción" loading="lazy" />
+        <div class="service-content">
+          <div class="service-line"></div>
+          <h3 data-i18n="svc.h3.3">Servicios de construcción</h3>
+          <p data-i18n="svc.p.3">La construcción ecológica pasiva proporciona servicios de construcción de alta calidad teniendo en cuenta todos los aspectos de eficiencia energética.</p>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1600&q=80" alt="Servicios previos a la construcción" loading="lazy" />
+        <div class="service-content">
+          <div class="service-line"></div>
+          <h3 data-i18n="svc.h3.4">Servicios previos a la construcción</h3>
+          <p data-i18n="svc.p.4">Antes de que comience la construcción, dedicamos tiempo a la planificación inicial para sopesar de antemano todos los aspectos financieros y de eficiencia.</p>
+        </div>
       </div>
     </div>
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80" alt="Diseño y construcción" loading="lazy" />
-      <div class="service-content">
-        <div class="service-line"></div>
-        <h3 data-i18n="svc.h3.2">Diseño y construcción</h3>
-        <p data-i18n="svc.p.2">Nuestra especialización nos permite diseñar y construir cualquier tipo de proyecto, por lo que somos considerados los mejores del mercado.</p>
-      </div>
-    </div>
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80" alt="Servicios de construcción" loading="lazy" />
-      <div class="service-content">
-        <div class="service-line"></div>
-        <h3 data-i18n="svc.h3.3">Servicios de construcción</h3>
-        <p data-i18n="svc.p.3">La construcción ecológica pasiva proporciona servicios de construcción de alta calidad teniendo en cuenta todos los aspectos de eficiencia energética.</p>
-      </div>
-    </div>
-    <div class="service-card">
-      <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&q=80" alt="Servicios previos a la construcción" loading="lazy" />
-      <div class="service-content">
-        <div class="service-line"></div>
-        <h3 data-i18n="svc.h3.4">Servicios previos a la construcción</h3>
-        <p data-i18n="svc.p.4">Antes de que comience la construcción, dedicamos tiempo a la planificación inicial para sopesar de antemano todos los aspectos financieros y de eficiencia.</p>
-      </div>
-    </div>
+    <div class="carousel-dots" id="servicesDots"></div>
   </div>
 </section>
 
@@ -168,66 +179,66 @@
 <section class="section">
   <div class="container">
     <div class="section-header" style="margin-bottom:48px;">
-      <span class="tag">Proyectos Destacados</span>
-      <h2 class="section-title">Villas diseñadas a la perfección</h2>
-      <p class="section-lead">Cada proyecto es único, diseñado y construido a medida para reflejar los sueños de nuestros clientes.</p>
+      <span class="tag" data-i18n="feat.tag">Proyectos Destacados</span>
+      <h2 class="section-title" data-i18n="feat.h2">Villas diseñadas a la perfección</h2>
+      <p class="section-lead" data-i18n="feat.lead">Cada proyecto es único, diseñado y construido a medida para reflejar los sueños de nuestros clientes.</p>
     </div>
     <div class="grid-3">
       <div class="project-card">
         <div class="project-card-img">
           <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=700&q=80" alt="Villa Verde A" loading="lazy" />
-          <span class="card-badge">Sobre Plano</span>
+          <span class="card-badge" data-i18n="feat.badge.plan">Sobre Plano</span>
         </div>
         <div class="project-card-body">
-          <div class="card-category">Villa Unifamiliar</div>
+          <div class="card-category" data-i18n="feat.c1.cat">Villa Unifamiliar</div>
           <div class="card-title">Villa Verde A</div>
-          <div class="card-desc">Diseño moderno de una planta con jardín perimetral, piscina y orientación sur para máximo aprovechamiento solar.</div>
+          <div class="card-desc" data-i18n="feat.c1.desc">Diseño moderno de una planta con jardín perimetral, piscina y orientación sur para máximo aprovechamiento solar.</div>
           <div class="card-meta">
             <span class="card-meta-item">📐 <strong>180 m²</strong></span>
-            <span class="card-meta-item">🛏️ <strong>4 hab.</strong></span>
-            <span class="card-meta-item">🚿 <strong>3 baños</strong></span>
+            <span class="card-meta-item">🛏️ <strong data-i18n="feat.rooms4">4 hab.</strong></span>
+            <span class="card-meta-item">🚿 <strong data-i18n="feat.bath3">3 baños</strong></span>
           </div>
-          <a href="proyectos-plano.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;">Ver proyecto →</a>
+          <a href="proyectos-plano.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;" data-i18n="feat.viewbtn">Ver proyecto →</a>
         </div>
       </div>
       <div class="project-card">
         <div class="project-card-img">
           <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=700&q=80" alt="Villa Natura C" loading="lazy" />
-          <span class="card-badge">Sobre Plano</span>
+          <span class="card-badge" data-i18n="feat.badge.plan">Sobre Plano</span>
         </div>
         <div class="project-card-body">
-          <div class="card-category">Villa Premium</div>
+          <div class="card-category" data-i18n="feat.c2.cat">Villa Premium</div>
           <div class="card-title">Villa Natura C</div>
-          <div class="card-desc">Gran villa con piscina desbordante, bodega y domótica integral. Materiales premium de origen ecológico.</div>
+          <div class="card-desc" data-i18n="feat.c2.desc">Gran villa con piscina desbordante, bodega y domótica integral. Materiales premium de origen ecológico.</div>
           <div class="card-meta">
             <span class="card-meta-item">📐 <strong>280 m²</strong></span>
-            <span class="card-meta-item">🛏️ <strong>5 hab.</strong></span>
-            <span class="card-meta-item">🚿 <strong>4 baños</strong></span>
+            <span class="card-meta-item">🛏️ <strong data-i18n="feat.rooms5">5 hab.</strong></span>
+            <span class="card-meta-item">🚿 <strong data-i18n="feat.bath4">4 baños</strong></span>
           </div>
-          <a href="proyectos-plano.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;">Ver proyecto →</a>
+          <a href="proyectos-plano.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;" data-i18n="feat.viewbtn">Ver proyecto →</a>
         </div>
       </div>
       <div class="project-card">
         <div class="project-card-img">
           <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80" alt="Residencial El Encinar" loading="lazy" />
-          <span class="card-badge">Con Licencia</span>
+          <span class="card-badge" data-i18n="feat.badge.lic">Con Licencia</span>
         </div>
         <div class="project-card-body">
-          <div class="card-category">Urbanización</div>
+          <div class="card-category" data-i18n="feat.c3.cat">Urbanización</div>
           <div class="card-title">Residencial El Encinar</div>
-          <div class="card-desc">8 villas unifamiliares en parcelas de 500 m² en Granada capital. Licencia aprobada, inicio de obra inmediato.</div>
+          <div class="card-desc" data-i18n="feat.c3.desc">8 villas unifamiliares en parcelas de 500 m² en Granada capital. Licencia aprobada, inicio de obra inmediato.</div>
           <div class="card-meta">
             <span class="card-meta-item">📐 <strong>180 m²</strong></span>
-            <span class="card-meta-item">🏠 <strong>8 villas</strong></span>
+            <span class="card-meta-item">🏠 <strong data-i18n="feat.units8">8 villas</strong></span>
             <span class="card-meta-item">📍 <strong>Granada</strong></span>
           </div>
-          <a href="proyectos-licencia.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;">Ver proyecto →</a>
+          <a href="proyectos-licencia.html" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:16px;" data-i18n="feat.viewbtn">Ver proyecto →</a>
         </div>
       </div>
     </div>
     <div style="text-align:center;margin-top:44px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
-      <a href="proyectos-plano.html" class="btn btn-primary" style="font-size:.95rem;padding:14px 32px;">Todos los proyectos sobre plano →</a>
-      <a href="proyectos-licencia.html" class="btn btn-dark" style="font-size:.95rem;padding:14px 32px;">Proyectos con licencia →</a>
+      <a href="proyectos-plano.html" class="btn btn-primary" style="font-size:.95rem;padding:14px 32px;" data-i18n="feat.allplan">Todos los proyectos sobre plano →</a>
+      <a href="proyectos-licencia.html" class="btn btn-dark" style="font-size:.95rem;padding:14px 32px;" data-i18n="feat.alllic">Proyectos con licencia →</a>
     </div>
   </div>
 </section>
