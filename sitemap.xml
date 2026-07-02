@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/?lang=nl" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ecologicalpassivebuilding.es/" />
+    <image:image>
+      <image:loc>https://www.ecologicalpassivebuilding.es/images/Logo.png</image:loc>
+      <image:title>Ecological Passive Building - Constructora ecológica</image:title>
+    </image:image>
+  </url>
+
+  <!-- Sobre Nosotros -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/sobre-nosotros.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/sobre-nosotros.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/sobre-nosotros.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/sobre-nosotros.html?lang=nl" />
+  </url>
+
+  <!-- Proyectos Sobre Plano -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/proyectos-plano.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/proyectos-plano.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/proyectos-plano.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/proyectos-plano.html?lang=nl" />
+  </url>
+
+  <!-- Proyectos con Licencia -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/proyectos-licencia.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/proyectos-licencia.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/proyectos-licencia.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/proyectos-licencia.html?lang=nl" />
+  </url>
+
+  <!-- Materiales -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/materiales.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/materiales.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/materiales.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/materiales.html?lang=nl" />
+  </url>
+
+  <!-- Contacto -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/contacto.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/contacto.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/contacto.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/contacto.html?lang=nl" />
+  </url>
+
+  <!-- Villas en Málaga -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/villas-malaga.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/villas-malaga.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/villas-malaga.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/villas-malaga.html?lang=nl" />
+  </url>
+
+  <!-- Villas en Marbella -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/villas-marbella.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/villas-marbella.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/villas-marbella.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/villas-marbella.html?lang=nl" />
+  </url>
+
+  <!-- Casas en Granada -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/villas-granada.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/villas-granada.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/villas-granada.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/villas-granada.html?lang=nl" />
+  </url>
+
+  <!-- Precio casa pasiva -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/precio-casa-pasiva.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/precio-casa-pasiva.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/precio-casa-pasiva.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/precio-casa-pasiva.html?lang=nl" />
+  </url>
+
+  <!-- Preguntas frecuentes -->
+  <url>
+    <loc>https://www.ecologicalpassivebuilding.es/preguntas-frecuentes.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ecologicalpassivebuilding.es/preguntas-frecuentes.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ecologicalpassivebuilding.es/preguntas-frecuentes.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.ecologicalpassivebuilding.es/preguntas-frecuentes.html?lang=nl" />
+  </url>
+
+</urlset>

@@ -1,0 +1,22 @@
+# robots.txt — Ecological Passive Building
+# https://www.ecologicalpassivebuilding.es/
+
+User-agent: *
+Allow: /
+Disallow: /politica-cookies.html
+Disallow: /politica-privacidad.html
+Disallow: /aviso-legal.html
+
+# Crawl delay (be polite)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://www.ecologicalpassivebuilding.es/sitemap.xml
+
+# Block aggressive scrapers / AI training crawlers (optional — uncomment to enable)
+# User-agent: GPTBot
+# Disallow: /
+# User-agent: CCBot
+# Disallow: /
+# User-agent: ClaudeBot
+# Disallow: /
