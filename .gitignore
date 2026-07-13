@@ -13,3 +13,9 @@ Desktop.ini
 
 # Logs / temporales
 *.log
+
+# Material original de las villas (zips WeTransfer con Word + fotos sin optimizar).
+# Se conserva en local como copia de seguridad, pero NO se sube a git ni se despliega:
+# las fotos ya optimizadas están en images/villas/ y images/villa-*.webp
+zips-info-villa-imagenes/
+zips-info-villas-imagenes/

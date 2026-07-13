@@ -161,16 +161,26 @@ const TRANSLATIONS = {
     'pp.badge1':    'Disponible',
     'pp.badge2':    'Premium',
     'pp.v38.cat':   'Villa de lujo sobre plano',
-    'pp.v38.desc':  'Villa de lujo sobre plano en el exclusivo Marbella Club Golf (Benahavís), sobre una parcela de 6.000 m² con vistas al mar y al golf. Proyecto y licencias aprobados.',
+    'pp.v38.desc':  'Villa de lujo sobre plano en el exclusivo Marbella Club Golf (Benahavís), sobre una parcela de 6.200 m² con vistas al mar y al golf. Proyecto y licencias aprobados.',
     'pp.v38.beds':  '5 dormitorios',
     'pp.v38.baths': '5 baños',
     'pp.v38.toilet': '1 aseo',
     'pp.moreinfo':  'Más información →',
-    'pp.v38.modal.desc': 'Proyecto sobre plano con licencias aprobadas en una de las zonas más exclusivas de Marbella: el Marbella Club Golf, en Benahavís. Se levanta sobre una parcela de 6.000 m² con vistas al mar, al golf y a la casa club. La urbanización, con seguridad de alto nivel, cuenta con centro ecuestre, casa club y un prestigioso campo de golf de 18 hoyos con más de 70 años de historia. Integrada en la ladera y rodeada de 5.000 m² de bosque, la villa se distribuye en 3 plantas con 770 m² interiores y 357 m² de terrazas.',
+    'pp.v38.modal.desc': 'Proyecto sobre plano con licencias aprobadas en una de las zonas más exclusivas de Marbella: el Marbella Club Golf, en Benahavís. Se levanta sobre una parcela de 6.200 m² con vistas al mar, al golf y a la casa club. La urbanización, con seguridad de alto nivel, cuenta con centro ecuestre, casa club y un prestigioso campo de golf de 18 hoyos con más de 70 años de historia. Integrada en la ladera y rodeada de 5.000 m² de bosque, la villa se distribuye en 3 plantas con 776 m² interiores y 357 m² de terrazas.',
     'pp.v38.f1':    '<strong>Planta inferior:</strong> bodega, garaje para 5 coches, gimnasio y 3 suites con vestidor y baño, con vistas al bosque.',
     'pp.v38.f2':    '<strong>Planta principal:</strong> salón, comedor y dos cocinas con orientación sur, y piscina climatizada de 75 m² rebosante por tres lados.',
     'pp.v38.f3':    '<strong>Planta superior:</strong> dormitorio principal en suite (84 m²) con 127 m² de terrazas, jacuzzi y pérgola bioclimática.',
     'pp.v38.f4':    '<strong>Ubicación Zen:</strong> a 15 km de Puerto Banús, 4 km de Cancelada y 13 km de Estepona, con ventanales de suelo a techo integrados en la naturaleza.',
+    'pp.v042.cat':  'Villa contemporánea sobre plano',
+    'pp.v042.desc': 'Villa contemporánea de lujo sobre plano en Nagüeles, una de las zonas más exclusivas de Marbella, rodeada de naturaleza y a pocos minutos del centro y las playas. Proyecto y licencias aprobados.',
+    'pp.v042.beds': '6 dormitorios',
+    'pp.v042.baths': '8 baños',
+    'pp.v042.garage': 'Garaje 9 coches',
+    'pp.v042.modal.desc': 'Villa contemporánea de lujo sobre plano en Nagüeles, una de las zonas más exclusivas de Marbella, en un entorno tranquilo y seguro rodeado de naturaleza. Sobre una parcela de 1.370 m² se distribuyen 650 m² construidos en tres niveles, con líneas puras, grandes ventanales e integración total entre interior y exterior. Las fotos de baños y cocinas son solo ejemplos: los acabados finales los elige el cliente.',
+    'pp.v042.f1':   '<strong>6 dormitorios y 8 baños:</strong> amplios y luminosos, con los más altos estándares de calidad y diseño moderno.',
+    'pp.v042.f2':   '<strong>Garaje para más de 9 coches:</strong> ideal para familias numerosas o coleccionistas.',
+    'pp.v042.f3':   '<strong>Acabados a elegir:</strong> pavimentos GRESPANIA/SALONI, baños COVERLAM y ROCA, cocina equipada con electrodomésticos Bosch o AEG.',
+    'pp.v042.f4':   '<strong>Energía y confort:</strong> aerotermia, suelo radiante, ascensor, piscina climatizada cubierta, 30 paneles solares, baterías de litio, cargador de coche y domótica.',
     'pp.modal.contactbtn': 'Solicitar información sobre esta villa →',
     'pp.btn':       'Solicitar información →',
     'pp.proc.tag':  'Proceso',
@@ -522,16 +532,26 @@ const TRANSLATIONS = {
     'pp.badge1':    'Available',
     'pp.badge2':    'Premium',
     'pp.v38.cat':   'Luxury off-plan villa',
-    'pp.v38.desc':  'Luxury off-plan villa in the exclusive Marbella Club Golf (Benahavís), on a 6,000 m² plot with sea and golf views. Project and licences approved.',
+    'pp.v38.desc':  'Luxury off-plan villa in the exclusive Marbella Club Golf (Benahavís), on a 6,200 m² plot with sea and golf views. Project and licences approved.',
     'pp.v38.beds':  '5 bedrooms',
     'pp.v38.baths': '5 bathrooms',
     'pp.v38.toilet': '1 guest toilet',
     'pp.moreinfo':  'More information →',
-    'pp.v38.modal.desc': 'Off-plan project with approved licences in one of the most exclusive areas of Marbella: the Marbella Club Golf, in Benahavís. It sits on a 6,000 m² plot with views of the sea, the golf course and the clubhouse. This high-security gated community features an equestrian centre, a charming clubhouse and a renowned 18-hole golf course with over 70 years of history. Set into the hillside and surrounded by 5,000 m² of woodland, the villa spans 3 floors with 770 m² of interior space and 357 m² of terraces.',
+    'pp.v38.modal.desc': 'Off-plan project with approved licences in one of the most exclusive areas of Marbella: the Marbella Club Golf, in Benahavís. It sits on a 6,200 m² plot with views of the sea, the golf course and the clubhouse. This high-security gated community features an equestrian centre, a charming clubhouse and a renowned 18-hole golf course with over 70 years of history. Set into the hillside and surrounded by 5,000 m² of woodland, the villa spans 3 floors with 776 m² of interior space and 357 m² of terraces.',
     'pp.v38.f1':    '<strong>Lower floor:</strong> wine cellar, garage for 5 cars, gym and 3 suites with dressing room and bathroom, overlooking the woodland.',
     'pp.v38.f2':    '<strong>Main floor:</strong> living room, dining area and two kitchens facing south, with a 75 m² heated pool overflowing on three sides.',
     'pp.v38.f3':    '<strong>Upper floor:</strong> master bedroom en suite (84 m²) with 127 m² of terraces, a built-in jacuzzi and a bioclimatic pergola.',
     'pp.v38.f4':    '<strong>Zen location:</strong> 15 km from Puerto Banús, 4 km from Cancelada and 13 km from Estepona, with floor-to-ceiling windows integrated with nature.',
+    'pp.v042.cat':  'Contemporary off-plan villa',
+    'pp.v042.desc': 'Luxury contemporary off-plan villa in Nagüeles, one of Marbella\'s most exclusive areas, surrounded by nature and just minutes from the town centre and the beaches. Project and licences approved.',
+    'pp.v042.beds': '6 bedrooms',
+    'pp.v042.baths': '8 bathrooms',
+    'pp.v042.garage': 'Garage 9 cars',
+    'pp.v042.modal.desc': 'Luxury contemporary off-plan villa in Nagüeles, one of Marbella\'s most exclusive areas, in a quiet and secure setting surrounded by nature. On a 1,370 m² plot it offers 650 m² of built area over three levels, with clean lines, large windows and a seamless integration between indoors and outdoors. The bathroom and kitchen pictures are just examples: the final finishes are chosen by the client.',
+    'pp.v042.f1':   '<strong>6 bedrooms and 8 bathrooms:</strong> spacious and bright, with the highest standards of quality and modern design.',
+    'pp.v042.f2':   '<strong>Garage for more than 9 cars:</strong> ideal for large families or collectors.',
+    'pp.v042.f3':   '<strong>Finishes of your choice:</strong> GRESPANIA/SALONI floor tiles, COVERLAM and ROCA bathrooms, fully fitted kitchen with Bosch or AEG appliances.',
+    'pp.v042.f4':   '<strong>Energy & comfort:</strong> aerothermal system, underfloor heating, lift, heated covered pool, 30 solar panels, lithium batteries, car charger and home automation.',
     'pp.modal.contactbtn': 'Request information about this villa →',
     'pp.btn':       'Request information →',
     'pp.proc.tag':  'Process',
@@ -878,16 +898,26 @@ const TRANSLATIONS = {
     'pp.badge1':    'Beschikbaar',
     'pp.badge2':    'Premium',
     'pp.v38.cat':   'Luxe villa op tekening',
-    'pp.v38.desc':  'Luxe villa op tekening in het exclusieve Marbella Club Golf (Benahavís), op een kavel van 6.000 m² met uitzicht op zee en golf. Project en vergunningen goedgekeurd.',
+    'pp.v38.desc':  'Luxe villa op tekening in het exclusieve Marbella Club Golf (Benahavís), op een kavel van 6.200 m² met uitzicht op zee en golf. Project en vergunningen goedgekeurd.',
     'pp.v38.beds':  '5 slaapkamers',
     'pp.v38.baths': '5 badkamers',
     'pp.v38.toilet': '1 gastentoilet',
     'pp.moreinfo':  'Meer informatie →',
-    'pp.v38.modal.desc': 'Project op tekening met goedgekeurde vergunningen in een van de meest exclusieve gebieden van Marbella: de Marbella Club Golf in Benahavís. Het ligt op een kavel van 6.000 m² met uitzicht op zee, de golfbaan en het clubhuis. Deze beveiligde community beschikt over een manege, een sfeervol clubhuis en een gerenommeerde 18-holes golfbaan met meer dan 70 jaar geschiedenis. Ingebed in de heuvel en omgeven door 5.000 m² bos, telt de villa 3 verdiepingen met 770 m² binnenruimte en 357 m² terrassen.',
+    'pp.v38.modal.desc': 'Project op tekening met goedgekeurde vergunningen in een van de meest exclusieve gebieden van Marbella: de Marbella Club Golf in Benahavís. Het ligt op een kavel van 6.200 m² met uitzicht op zee, de golfbaan en het clubhuis. Deze beveiligde community beschikt over een manege, een sfeervol clubhuis en een gerenommeerde 18-holes golfbaan met meer dan 70 jaar geschiedenis. Ingebed in de heuvel en omgeven door 5.000 m² bos, telt de villa 3 verdiepingen met 776 m² binnenruimte en 357 m² terrassen.',
     'pp.v38.f1':    '<strong>Onderverdieping:</strong> wijnkelder, garage voor 5 auto\'s, fitnessruimte en 3 suites met dressing en badkamer, met uitzicht op het bos.',
     'pp.v38.f2':    '<strong>Hoofdverdieping:</strong> woonkamer, eetkamer en twee keukens op het zuiden, met een verwarmd zwembad van 75 m² dat aan drie zijden overloopt.',
     'pp.v38.f3':    '<strong>Bovenverdieping:</strong> master slaapkamer en suite (84 m²) met 127 m² terrassen, ingebouwde jacuzzi en bioklimatologische pergola.',
     'pp.v38.f4':    '<strong>Zen-locatie:</strong> 15 km van Puerto Banús, 4 km van Cancelada en 13 km van Estepona, met raampartijen van vloer tot plafond geïntegreerd met de natuur.',
+    'pp.v042.cat':  'Eigentijdse villa op tekening',
+    'pp.v042.desc': 'Luxe eigentijdse villa op tekening in Nagüeles, een van de meest exclusieve gebieden van Marbella, omgeven door natuur en op enkele minuten van het centrum en de stranden. Project en vergunningen goedgekeurd.',
+    'pp.v042.beds': '6 slaapkamers',
+    'pp.v042.baths': '8 badkamers',
+    'pp.v042.garage': 'Garage 9 auto\'s',
+    'pp.v042.modal.desc': 'Luxe eigentijdse villa op tekening in Nagüeles, een van de meest exclusieve gebieden van Marbella, in een rustige en veilige omgeving omgeven door natuur. Op een kavel van 1.370 m² biedt de villa 650 m² bebouwd oppervlak over drie niveaus, met strakke lijnen, grote ramen en een naadloze integratie tussen binnen en buiten. De foto\'s van badkamers en keukens zijn slechts voorbeelden: de uiteindelijke afwerking wordt door de klant gekozen.',
+    'pp.v042.f1':   '<strong>6 slaapkamers en 8 badkamers:</strong> ruim en licht, met de hoogste kwaliteitsnormen en modern design.',
+    'pp.v042.f2':   '<strong>Garage voor meer dan 9 auto\'s:</strong> ideaal voor grote gezinnen of verzamelaars.',
+    'pp.v042.f3':   '<strong>Afwerking naar keuze:</strong> GRESPANIA/SALONI-vloertegels, COVERLAM- en ROCA-badkamers, volledig uitgeruste keuken met Bosch- of AEG-apparatuur.',
+    'pp.v042.f4':   '<strong>Energie & comfort:</strong> aerothermie, vloerverwarming, lift, verwarmd overdekt zwembad, 30 zonnepanelen, lithiumbatterijen, autolader en domotica.',
     'pp.modal.contactbtn': 'Informatie aanvragen over deze villa →',
     'pp.btn':       'Informatie aanvragen →',
     'pp.proc.tag':  'Proces',
@@ -1171,18 +1201,25 @@ if (scrollBtn) {
 
 
 /* ── 4. MODALS ──────────────────────────── */
-/* Galerías de fotos de villas (DEMO con fotos disponibles; sustituir por las reales).
-   TODO: el cliente debe enviar las fotos reales de cada villa; reemplazar las listas de abajo. */
-const _galPool = ['villa-38.webp','villa-005.webp','villa-043.webp','villa-049.webp','imagen-1.webp','imagen-2.webp','about-us.webp','hero-plano.webp','hero-licencia.webp','hero-nosotros.webp','hero-materiales.webp','hero-contacto.webp'];
-function _mkGallery(lead) {
-  const rest = _galPool.filter(x => x !== lead);
-  return [lead, ...rest, ...rest].slice(0, 15);
+/* Galerías reales de fotos de cada villa.
+   Fotos a tamaño completo en  images/villas/<carpeta>/NN.webp
+   Miniaturas (más ligeras) en  images/villas/<carpeta>/t/NN.webp */
+function _villaImgs(folder, count) {
+  const list = [];
+  for (let i = 1; i <= count; i++) list.push('villas/' + folder + '/' + String(i).padStart(2, '0') + '.webp');
+  return list;
+}
+/* deriva la ruta de la miniatura a partir de la ruta de la foto completa */
+function _thumbSrc(src) {
+  const i = src.lastIndexOf('/');
+  return src.slice(0, i) + '/t' + src.slice(i);
 }
 const VILLA_GALLERIES = {
-  modalVilla38:  _mkGallery('villa-38.webp'),
-  modalVilla005: _mkGallery('villa-005.webp'),
-  modalVilla043: _mkGallery('villa-043.webp'),
-  modalVilla049: _mkGallery('villa-049.webp')
+  modalVilla38:  _villaImgs('villa-038', 25),
+  modalVilla005: _villaImgs('villa-005', 22),
+  modalVilla042: _villaImgs('villa-042', 12),
+  modalVilla043: _villaImgs('villa-043', 10),
+  modalVilla049: _villaImgs('villa-049', 17)
 };
 /* Cuadrícula de miniaturas dentro del modal (clic en una → abre el lightbox) */
 function buildThumbGrid(gridEl) {
@@ -1191,7 +1228,7 @@ function buildThumbGrid(gridEl) {
   if (!imgs.length) return;
   const name = (gridEl.dataset.gallery || 'Villa').replace('modalVilla', 'Villa ');
   gridEl.innerHTML = imgs.map((src, i) =>
-    `<button type="button" class="vt-thumb" data-idx="${i}" aria-label="Ampliar foto ${i + 1} de ${imgs.length}"><img src="images/${src}" alt="${name} — foto ${i + 1}" loading="lazy"></button>`
+    `<button type="button" class="vt-thumb" data-idx="${i}" aria-label="Ampliar foto ${i + 1} de ${imgs.length}"><img src="images/${_thumbSrc(src)}" alt="${name} — foto ${i + 1}" loading="lazy"></button>`
   ).join('');
   gridEl.dataset.built = '1';
 }
@@ -1237,7 +1274,7 @@ function openLightbox(imgs, idx, trigger) {
   _lbImgs = imgs;
   _lbTrigger = trigger || null;
   _lb.querySelector('.lb-thumbs').innerHTML = imgs.map((src, i) =>
-    `<button type="button" class="lb-thumb" data-idx="${i}" aria-label="Foto ${i + 1}"><img src="images/${src}" alt=""></button>`
+    `<button type="button" class="lb-thumb" data-idx="${i}" aria-label="Foto ${i + 1}"><img src="images/${_thumbSrc(src)}" alt=""></button>`
   ).join('');
   lbSet(idx || 0);
   _lb.classList.add('open');

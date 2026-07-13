@@ -367,7 +367,7 @@ ul { list-style: none; }
 .license-desc { font-size: .88rem; color: var(--gray-600); margin-bottom: 20px; line-height: 1.6; }
 .license-specs { display: grid; grid-template-columns: repeat(3,1fr); background: var(--green-ultra); border-radius: var(--radius); padding: 14px; gap: 8px; }
 .spec { text-align: center; }
-.spec-val { font-weight: 700; color: var(--green-dark); font-size: .95rem; }
+.spec-val { font-weight: 700; color: var(--green-dark); font-size: .85rem; white-space: nowrap; }
 .spec-key { font-size: .68rem; color: var(--gray-600); text-transform: uppercase; letter-spacing: .06em; }
 
 /* ─── MATERIAL CARDS ─── */
