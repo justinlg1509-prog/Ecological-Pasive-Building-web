@@ -156,8 +156,9 @@ const TRANSLATIONS = {
 
     /* ── PROYECTOS SOBRE PLANO ── */
     'pp.tag':       'Diseña tu villa',
-    'pp.h2':        'Tu villa ecológica, diseñada y construida sobre plano',
-    'pp.lead':      'Te presentamos uno de nuestros proyectos sobre plano. Y si buscas algo único, diseñamos y construimos tu villa ecológica totalmente a medida, según tu terreno, tus gustos y tus necesidades.',
+    'pp.h2':        'Diseñamos y construimos tu villa ecológica a medida',
+    'pp.lead':      'Cada villa es única: la diseñamos desde cero según tu terreno, tus gustos y tu presupuesto, y la construimos con estándar Passive House. ¿Quieres ver proyectos ya definidos y con licencia aprobada? Descúbrelos en nuestra sección de proyectos con licencia.',
+    'pp.seeprojects': 'Ver proyectos con licencia →',
     'pp.badge1':    'Disponible',
     'pp.badge2':    'Premium',
     'pp.v38.cat':   'Villa de lujo sobre plano',
@@ -527,8 +528,9 @@ const TRANSLATIONS = {
     'mat.cta':    'Request specifications →',
 
     'pp.tag':       'Design your villa',
-    'pp.h2':        'Your ecological villa, designed and built off-plan',
-    'pp.lead':      'Here is one of our off-plan projects. And if you are looking for something unique, we design and build your ecological villa entirely to measure, based on your plot, tastes and needs.',
+    'pp.h2':        'We design and build your ecological villa to measure',
+    'pp.lead':      'Every villa is unique: we design it from scratch around your plot, your taste and your budget, and build it to the Passive House standard. Want to see fully defined projects with approved licences? Discover them in our licensed projects section.',
+    'pp.seeprojects': 'See licensed projects →',
     'pp.badge1':    'Available',
     'pp.badge2':    'Premium',
     'pp.v38.cat':   'Luxury off-plan villa',
@@ -893,8 +895,9 @@ const TRANSLATIONS = {
     'mat.cta':    'Specificaties opvragen →',
 
     'pp.tag':       'Ontwerp uw villa',
-    'pp.h2':        'Uw ecologische villa, ontworpen en gebouwd op tekening',
-    'pp.lead':      'Dit is een van onze projecten op tekening. En als u op zoek bent naar iets unieks, ontwerpen en bouwen wij uw ecologische villa volledig op maat, op basis van uw kavel, smaak en wensen.',
+    'pp.h2':        'Wij ontwerpen en bouwen uw ecologische villa op maat',
+    'pp.lead':      'Elke villa is uniek: we ontwerpen hem vanaf nul rond uw kavel, uw smaak en uw budget, en bouwen hem volgens de Passive House-standaard. Wilt u volledig uitgewerkte projecten met goedgekeurde vergunning zien? Ontdek ze in onze sectie projecten met vergunning.',
+    'pp.seeprojects': 'Bekijk projecten met vergunning →',
     'pp.badge1':    'Beschikbaar',
     'pp.badge2':    'Premium',
     'pp.v38.cat':   'Luxe villa op tekening',
