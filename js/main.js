@@ -25,6 +25,7 @@ const TRANSLATIONS = {
     'hero.stat3l':  'Certificación energética',
     'hero.stat4l':  'Países',
     /* SERVICES */
+    'svc.h2':   'Nuestros servicios',
     'svc.h3.1': 'Construcción ecológica',
     'svc.p.1':  '¡Tenemos una larga lista de contratistas profesionales con los que nuestros ingenieros y arquitectos disfrutan trabajando en la mayoría de nuestros proyectos!',
     'svc.h3.2': 'Diseño y construcción',
@@ -404,6 +405,7 @@ const TRANSLATIONS = {
     'hero.stat2l':  'Delivered projects',
     'hero.stat3l':  'Energy certification',
     'hero.stat4l':  'Countries',
+    'svc.h2':   'Our services',
     'svc.h3.1': 'Ecological construction',
     'svc.p.1':  'We have a long list of professional contractors with whom our engineers and architects enjoy working on the majority of our projects!',
     'svc.h3.2': 'Design & construction',
@@ -771,6 +773,7 @@ const TRANSLATIONS = {
     'hero.stat2l':  'Opgeleverde projecten',
     'hero.stat3l':  'Energiecertificering',
     'hero.stat4l':  'Landen',
+    'svc.h2':   'Onze diensten',
     'svc.h3.1': 'Ecologische bouw',
     'svc.p.1':  'Wij hebben een uitgebreide lijst van professionele aannemers met wie onze ingenieurs en architecten graag samenwerken aan de meeste van onze projecten!',
     'svc.h3.2': 'Ontwerp en bouw',

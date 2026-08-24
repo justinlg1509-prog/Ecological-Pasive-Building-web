@@ -48,7 +48,8 @@
   <link rel="apple-touch-icon" href="images/Logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" data-fonts />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" /></noscript>
   <link rel="stylesheet" href="css/styles.css" />
   <!-- Preload de la imagen principal (LCP) para acelerar la carga visible -->
   <link rel="preload" as="image" href="images/imagen-1.webp" fetchpriority="high" />
@@ -195,6 +196,7 @@
 
 <!-- ══ SERVICES CAROUSEL ════════════════════ -->
 <section id="services">
+  <h2 class="sr-only" data-i18n="svc.h2">Nuestros servicios</h2>
   <div class="services-carousel" id="servicesCarousel">
     <div class="carousel-progress" aria-hidden="true">
       <div class="carousel-progress-bar" id="svcProgress"></div>

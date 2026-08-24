@@ -1,5 +1,13 @@
 /* Injects shared navbar + footer and calls main.js after */
 (function () {
+  /* Fuentes web sin bloquear el render: el <link rel="preload" data-fonts> se
+     convierte aquí en hoja de estilos (CSP no permite onload en línea). */
+  try {
+    var _f = document.querySelector('link[data-fonts]');
+    if (_f && _f.rel !== 'stylesheet') _f.rel = 'stylesheet';
+  } catch (e) {}
+})();
+(function () {
   const NAV_HTML = `
 <nav id="navbar">
   <div class="nav-inner">
@@ -50,7 +58,7 @@
         <p data-i18n="footer.tagline">Construimos villas ecológicas únicas, diseñadas a medida para hacer realidad los sueños de nuestros clientes desde hace más de 30 años.</p>
       </div>
       <div class="footer-col">
-        <h5 data-i18n="footer.col1">Sobre Nosotros</h5>
+        <h2 data-i18n="footer.col1">Sobre Nosotros</h2>
         <ul>
           <li><a href="index.html" data-i18n="nav.home">Hogar</a></li>
           <li><a href="sobre-nosotros.html" data-i18n="nav.about">Sobre Nosotros</a></li>
@@ -63,7 +71,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h5 data-i18n="footer.col2">Información</h5>
+        <h2 data-i18n="footer.col2">Información</h2>
         <ul>
           <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
           <li><a href="precio-casa-pasiva.html" data-i18n="nav.price">Precio casa pasiva</a></li>
@@ -74,7 +82,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h5 data-i18n="footer.col3">Contacto</h5>
+        <h2 data-i18n="footer.col3">Contacto</h2>
         <div class="footer-contact-row">📍 <span data-i18n="footer.addr">Calle Cuarzo de Riviera 2, Apt 33 — 29649 Riviera del Sol, Málaga, España</span></div>
         <div class="footer-contact-row">📞 <a href="https://wa.me/34951661189" style="color:inherit;" target="_blank" rel="noopener">+34 951 661 189</a></div>
         <div class="footer-contact-row">📱 <a href="https://wa.me/34602697459" style="color:inherit;" target="_blank" rel="noopener">+34 602 697 459</a></div>
@@ -87,7 +95,7 @@
     </div>
     <div class="footer-bottom">
       <span data-i18n="footer.copy">© 2026 Ecological Passive Building · Todos los derechos reservados</span>
-      <span style="color:rgba(255,255,255,.4);">Riviera del Sol · Coin · Londres</span>
+      <span style="color:rgba(255,255,255,.75);">Riviera del Sol · Coin · Londres</span>
     </div>
   </div>
 </footer>
